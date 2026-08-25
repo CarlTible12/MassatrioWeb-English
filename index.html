@@ -1,0 +1,241 @@
+<!-- trigger depplo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MASSATRIOF16 WEB — Unisoc Recovery &amp; Tools</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="overlay" id="overlay"></div>
+
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-head">
+    <div class="mark">MASSATRIOF16</div>
+    <div class="sub">Unisoc Toolkit</div>
+  </div>
+  <ul class="nav-list">
+    <li class="nav-item active" data-view="home"><i class="fas fa-house"></i> Home</li>
+    <li class="nav-item" data-view="recovery"><i class="fas fa-mobile-screen-button"></i> Custom Recovery</li>
+    <li class="nav-item" data-view="tools"><i class="fas fa-wrench"></i> Tools Unisoc</li>
+  </ul>
+  <div class="sidebar-foot">© 2025/2026 MassatrioF16 &amp; AthaxDev</div>
+</aside>
+
+<header class="topbar">
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  <div class="brand">
+    <div class="mark">MASSATRIOF16 WEB</div>
+    <div class="sub">Unisoc Recovery &amp; Flash Tools</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME ============ -->
+  <section class="view active" id="view-home">
+    <div class="hero">
+      <i class="fas fa-mobile-alt logo"></i>
+      <h1>Welcome to the Massatrio Website</h1>
+      <p>This is the place for custom recovery for Unisoc devices, and it will be updated for other devices too! (if anyone wants to be a tester)</p>
+      <div class="promo">💬 Offering <b>UBL, root &amp; firmware flashing</b> services for Unisoc-chipset phones known to be difficult — contact Telegram <b>@Massatriof16</b>. Guaranteed to work, always updated with new devices for unlocking, definitely trustworthy. </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fas fa-images"></i> Testimonials</div>
+      <p class="proof-caption">Below are testimonials of UBL and rooting for those hard-to-UBL-and-root Unisoc chipsets.</p>
+      <div class="proof-grid">
+        <div class="img-box"><i class="fas fa-image"></i><img src="pict/nubia.jpg" alt="Nubia 1"></div>
+        <div class="img-box"><i class="fas fa-image"></i><img src="pict/nubia2.jpg" alt="Nubia 2"></div>
+        <div class="img-box"><i class="fas fa-image"></i><img src="pict/itel.jpg" alt="Itel"></div>
+        <div class="img-box"><i class="fas fa-image"></i><img src="pict/blade.jpg" alt="Blade"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CUSTOM RECOVERY ============ -->
+  <section class="view" id="view-recovery">
+    <div class="page-head">
+      <h2>Custom Recovery</h2>
+      <p>List of phones that have a custom recovery. Please choose according to your device model.</p>
+    </div>
+    <div class="device-grid" id="deviceGrid"></div>
+  </section>
+
+  <!-- ============ TOOLS UNISOC ============ -->
+  <section class="view" id="view-tools">
+    <div class="page-head">
+      <h2>Tools Unisoc</h2>
+      <p>Download tools, drivers, and documentation for flashing Unisoc/Spreadtrum devices.</p>
+    </div>
+
+
+
+    <div class="card">
+      <div class="tool-block">
+        <h3><i class="fas fa-bolt"></i> Spreadtrum Flash Tool </h3>
+        <p class="desc">Supports Windows &amp; Linux. <b> Disable antivirus/Windows Defender during installation so the file isn't automatically deleted.</b> Full update info is in the MSTR group.</p>
+        <h4> CHANGE LOG: </h4><br>
+        <p> V36 (public) : <br>
+        - Fixed flashing firmware for Redmi A5 <br>
+        - Fixed Magisk patch & kernel replacement </p><br>
+       <p> V36 (owner) <br>
+       - Fixed firmware flashing<br>
+       - Fixed Magisk patch & kernel replacement<br>
+       - Added new device ZTE sc9863a & ums9320 <br>
+       - Added new SoC model Ums9632 Bootchain POSTROM security<br>
+       - Added new SoC model ums9621 <br>
+       - Optimized command line </p>
+        <ul class="link-list">
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_V36.zip"><i class="fas fa-download"></i> Windows V36</a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_linux_V35.zip"><i class="fas fa-download"></i> Linux V35</a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_V36_Owner.zip"><i class="fas fa-download"></i> Windows V36 Owner</a><span class="note">.zip</span></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+
+    <div class="card">
+      <div class="tool-block">
+        <h3><i class="fas fa-bolt"></i> DRIVER UNISOC</h3>
+
+        <ul class="link-list">
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/Win10.zip"><i class="fas fa-download"></i> Driver UNISOC windows 10</a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/Win8.zip"><i class="fas fa-download"></i> Driver Unisoc windows 8</a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/Win7.zip"><i class="fas fa-download"></i> Driver UNISOC windows 7</a><span class="note">.zip</span></li>
+        </ul>
+      </div>
+    </div>
+
+      
+        <div class="card">
+      <div class="tool-block">
+        <h3><i class="fas fa-bolt"></i>Fix MSVC missing error</h3>
+        <p class="desc">Some Windows 10-and-below systems often get missing-lib errors; install the VC Redistributable below.</p>
+        <ul class="link-list">
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/VC_redist.arm64.exe"><i class="fas fa-download"></i> Vc reddist arm64 </a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/VC_redist.x64.exe"><i class="fas fa-download"></i> VC Reddist X64 </a><span class="note">.zip</span></li>
+          <li><a class="dl safe-link" href="javascript:void(0)" data-href="https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/VC_redist.arm64.exe"><i class="fas fa-download"></i> VC Reddist X86 </a><span class="note">.zip</span></li>
+        </ul>
+      </div>
+    </div>
+    
+
+
+    
+  </section>
+
+</main>
+
+<footer>© 2025/2026 MassatrioF16 &amp; AthaxDev — made for the Unisoc/Spreadtrum firmware research community</footer>
+
+<script>
+  // ---------- link protection (prevents copying the link) ----------
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('.safe-link');
+    if (link && link.dataset.href) {
+      e.preventDefault();
+      window.open(link.dataset.href, '_blank', 'noopener');
+    }
+  });
+  // block right-click (prevents "Copy link address") on all links
+  document.addEventListener('contextmenu', (e) => {
+    if (e.target.closest('.safe-link')) e.preventDefault();
+  });
+  // prevent link dragging (drag-and-drop could leak the URL)
+  document.addEventListener('dragstart', (e) => {
+    if (e.target.closest('.safe-link')) e.preventDefault();
+  });
+
+  // ---------- sidebar toggle ----------
+  const burger = document.getElementById('burger');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('overlay');
+
+  function openSidebar(){ sidebar.classList.add('open'); overlay.classList.add('show'); burger.classList.add('active'); }
+  function closeSidebar(){ sidebar.classList.remove('open'); overlay.classList.remove('show'); burger.classList.remove('active'); }
+  burger.addEventListener('click', () => sidebar.classList.contains('open') ? closeSidebar() : openSidebar());
+  overlay.addEventListener('click', closeSidebar);
+
+  // ---------- view switching ----------
+  const navItems = document.querySelectorAll('.nav-item');
+  const views = document.querySelectorAll('.view');
+  function goto(name){
+    views.forEach(v => v.classList.toggle('active', v.id === 'view-' + name));
+    navItems.forEach(n => n.classList.toggle('active', n.dataset.view === name));
+    closeSidebar();
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+  navItems.forEach(item => item.addEventListener('click', () => goto(item.dataset.view)));
+
+  // ---------- device data (Custom Recovery) ----------
+  const devices = [
+    { name:'Itel S23 S665L', android:'12', tester:'@farispm', date:'6 May 2024',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/For_s23/TWRP_S665L.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/For_s23/OrangeFox_S665L.img' },
+    { name:'Itel P55 NFC A666LN', android:'13', tester:'@akunata3, @kakvandu', date:'13 Sept 2024',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_p55nfc/Twrp_P55_NFC_A666LN.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_p55nfc/OrangeFox-Unofficial_A666LN.img' },
+    { name:'Itel A70 A665L', android:'13', tester:'@Ayru_0v0', date:'6 Oct 2024',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_a70/TWRP_A665L_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_a70/OrangeFox-Unofficial_A665L.img' },
+    { name:'Infinix Hot 30i X669', android:'12', tester:'@toshitzz', date:'28 Jan 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x669/TWRP_X669_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x669/OrangeFox-Unofficial_X669.img' },
+    { name:'Infinix Hot 40i X6528B', android:'13', tester:'@Onelov1226', date:'25 Jun 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x6528b/TWRP_X6528_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x6528b/OrangeFox-Unofficial_X6528.img' },
+    { name:'Infinix Smart 8 X6525', android:'13', tester:'@More_than_one1', date:'27 Jun 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x6525/TWRP_X6525_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_x6525/OrangeFox-Unofficial_X6525.img' },
+    { name:'Itel S23+ S681LN', android:'13', tester:'@r4dbz', date:'27 Jun 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_s681ln/TWRP_S681LN_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_s681ln/OrangeFox-Unofficial_S681LN.img' },
+    { name:'Realme C33 RMX3624', android:'13', tester:'@yvil_re', date:'24 Sept 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_rmx3624/TWRP_RMX3624_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_rmx3624/OrangeFox-Unofficial_RMX3624.img' },
+    { name:'Itel P65 P671L / LN', android:'14', tester:'@KurumiDev, @npcvbn', date:'16 Nov 2025',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_p671l/TWRP_P671L_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_p671l/OrangeFox-Unofficial_P671L.img' },
+    { name:'Tecno Spark Go 1 KL4', android:'14', tester:'@shinmorik, @NethWs3Dev', date:'27 Des 2025',
+      twrp:null,
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_kl4/OrangeFox-Unofficial_KL4.img' },
+    { name:'Realme C63 / Note 60 RMX3939', android:'14', tester:'@KazeTheLight', date:'21 Mar 2026',
+      twrp:null, fox:null },
+    { name:'Itel City 100 C671L', android:'14', tester:null, date:'14 Mei 2026',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_c671l/TWRP_C671L_vendor_boot.img',
+      fox:'https://github.com/Massatriof16/recovery-collections/releases/download/for_c671l/OrangeFox-Unofficial_C671L.img' },
+    { name:'Advan Tab VX Lite 1013', android:'13', tester:null, date:'9 Aug 2026',
+      twrp:'https://github.com/Massatriof16/recovery-collections/releases/download/for_1h10/TWRP_1h10_vendor_boot.img.xz',
+      fox:null },
+  ];
+
+  const deviceGrid = document.getElementById('deviceGrid');
+  deviceGrid.innerHTML = devices.map(d => `
+    <div class="device-card">
+      <h3>${d.name}</h3>
+      <div>
+        <span class="tag">Touch</span>
+        <span class="tag">Decrypt</span>
+      </div>
+      <div class="device-meta">
+        Android ${d.android}${d.tester ? ` • Tester: ${d.tester}` : ''}<br>
+        Build Date: ${d.date}
+      </div>
+      <div class="bug">BUG: Decrypt Lockscreen</div>
+      <div class="btn-row">
+        ${d.twrp ? `<a class="btn btn-twrp safe-link" href="javascript:void(0)" data-href="${d.twrp}"><i class="fas fa-download"></i> TWRP</a>` : `<span class="btn disabled">TWRP</span>`}
+        ${d.fox ? `<a class="btn btn-orange safe-link" href="javascript:void(0)" data-href="${d.fox}"><i class="fas fa-download"></i> OrangeFox</a>` : `<span class="btn disabled">OrangeFox</span>`}
+      </div>
+    </div>
+  `).join('');
+</script>
+</body>
+</html>
