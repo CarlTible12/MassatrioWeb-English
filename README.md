@@ -10,7 +10,7 @@ Supported for Linux & Windows
 |--------------------------------|-------------------------------------------------------------------------------------------------|
 | Infinix Hot 30i X669           |  [Download](https://github.com/Massatriof16/recovery-collections/releases/tag/for_x669)         |
 | Infinix Hot 40i X6528B         |  [Download](https://github.com/Massatriof16/recovery-collections/releases/tag/for_x6528b)       |
-| Infinix Hot Smart 8            |  [Download](https://github.com/CarlTible12/Updated-Custom-Recovery-For-nfinix-Smart-8-X6525-/releases/tag/v1.0)        |
+| Infinix SMART 8 X6525            |  [Download](https://github.com/CarlTible12/Updated-Custom-Recovery-For-nfinix-Smart-8-X6525-/releases/tag/v1.0)        |
 | Itel S23+                      |  [Download](https://github.com/Massatriof16/recovery-collections/releases/tag/for_s681ln)       |
 | Itel P55 NFC                   |  [Download](https://github.com/Massatriof16/recovery-collections/releases/tag/for_p55nfc)       |
 | Itel A70                       |  [Download](https://github.com/Massatriof16/recovery-collections/releases/tag/for_a70)          |
