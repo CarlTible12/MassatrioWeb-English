@@ -25,8 +25,12 @@ Supported for Linux & Windows
 |  V17.5 Linux                   |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_linux_17.5.zip)   |
 |  V17.6 Windows                 |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_V17.6.zip)        |
 |  V17.6 Linux                   |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_linux_V17.6.zip)  |
-|  V17.7 Windows                 |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_V17.7.zip)        |
+|  V17.7 Windows                 |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_V17.7.zip)      |
+|  V36.0 Windows                 |  [Download](https://github.com/CarlTible12/Updated-Custom-Recovery-For-nfinix-Smart-8-X6525-/releases/download/v1.0/spreadtrum_flash_V36.zip)      |
 |  V17.7 Linux                   |  [Download](https://github.com/Massatriof16/recovery-collections/releases/download/Spd_flash/spreadtrum_flash_linux_V17.7.zip)  |
+|  V35.0 Linux                 |  [Download](https://github.com/CarlTible12/Updated-Custom-Recovery-For-nfinix-Smart-8-X6525-/releases/download/v1.0/spreadtrum_flash_linux_V35.zip)      |
+|  Termux (root)                 |  [Download](https://github.com/CarlTible12/Updated-Custom-Recovery-For-nfinix-Smart-8-X6525-/releases/download/v1.0/spreadtrum_flash_termux_arm64-en.zip)      |
+
 
 |        SPD Driver & VC_Redist_X86             |                                                        Download Link                                                    |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
